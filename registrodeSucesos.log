@@ -1,0 +1,384 @@
+[2024-05-23 21:40:33] [ INFO ] [BD:48] Tablas creadas
+[2024-05-23 21:40:33] [ INFO ] [BD:55] inserciones creadas
+[2024-05-23 21:40:33] [ INFO ] [PacienteDAOH2:49] iniciando la operacion de buscado de un paciente con id : 2
+[2024-05-23 21:40:33] [ INFO ] [DomicilioDAOH2:44] iniciando la busqueda de un domicilio con id: 2
+[2024-05-23 21:40:57] [ INFO ] [OdolontologoService:22] creado el dao con h2
+[2024-05-23 21:40:59] [ INFO ] [BD:48] Tablas creadas
+[2024-05-23 21:40:59] [ INFO ] [BD:55] inserciones creadas
+[2024-05-23 21:40:59] [ INFO ] [OdontoloDAOH2:91] Buscando los odontologos
+[2024-05-23 21:40:59] [ INFO ] [OdontoloDAOH2:105] odontologos traidos con exito
+[2024-05-23 21:40:59] [ INFO ] [OdontoloDAOH2:110]  Matricula: 123123 Nombre: German Apellido: Fraire
+[2024-05-23 21:40:59] [ INFO ] [OdontoloDAOH2:110]  Matricula: 234324432 Nombre: Fabricio Apellido: Acosta
+[2024-05-23 22:05:06] [ INFO ] [BD:48] Tablas creadas
+[2024-05-23 22:05:06] [ INFO ] [BD:55] inserciones creadas
+[2024-05-23 22:15:02] [ INFO ] [BD:48] Tablas creadas
+[2024-05-23 22:15:02] [ INFO ] [BD:55] inserciones creadas
+[2024-05-23 22:30:37] [ INFO ] [BD:48] Tablas creadas
+[2024-05-23 22:30:37] [ INFO ] [BD:55] inserciones creadas
+[2024-05-23 22:36:57] [ INFO ] [BD:48] Tablas creadas
+[2024-05-23 22:36:57] [ INFO ] [BD:55] inserciones creadas
+[2024-05-23 22:38:02] [ INFO ] [PacienteDAOH2:76] iniciando las operaciones de busqueda:
+[2024-05-23 22:38:02] [ INFO ] [DomicilioDAOH2:44] iniciando la busqueda de un domicilio con id: 1
+[2024-05-23 22:38:02] [ INFO ] [DomicilioDAOH2:44] iniciando la busqueda de un domicilio con id: 2
+[2024-05-23 22:40:19] [ INFO ] [BD:48] Tablas creadas
+[2024-05-23 22:40:19] [ INFO ] [BD:55] inserciones creadas
+[2024-05-23 22:40:47] [ INFO ] [PacienteDAOH2:76] iniciando las operaciones de busqueda:
+[2024-05-23 22:40:47] [ INFO ] [DomicilioDAOH2:44] iniciando la busqueda de un domicilio con id: 1
+[2024-05-23 22:40:47] [ INFO ] [DomicilioDAOH2:44] iniciando la busqueda de un domicilio con id: 2
+[2024-05-29 11:47:35] [ INFO ] [BD:48] Tablas creadas
+[2024-05-29 11:47:35] [ INFO ] [BD:55] inserciones creadas
+[2024-05-29 12:07:07] [ INFO ] [PacienteDAOH2:50] iniciando la operacion de buscado de un paciente con id : 1
+[2024-05-29 12:07:07] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 1
+[2024-05-29 12:07:13] [ INFO ] [PacienteDAOH2:50] iniciando la operacion de buscado de un paciente con id : 2
+[2024-05-29 12:07:13] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 2
+[2024-05-29 12:13:27] [ INFO ] [BD:48] Tablas creadas
+[2024-05-29 12:13:27] [ INFO ] [BD:55] inserciones creadas
+[2024-05-29 12:15:32] [ INFO ] [PacienteDAOH2:50] iniciando la operacion de buscado de un paciente con id : 2
+[2024-05-29 12:15:32] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 2
+[2024-05-29 12:15:57] [ INFO ] [PacienteDAOH2:77] iniciando las operaciones de busqueda:
+[2024-05-29 12:15:57] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 1
+[2024-05-29 12:15:57] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 2
+[2024-05-29 12:26:39] [ INFO ] [BD:48] Tablas creadas
+[2024-05-29 12:26:39] [ INFO ] [BD:55] inserciones creadas
+[2024-05-29 12:28:50] [ INFO ] [BD:48] Tablas creadas
+[2024-05-29 12:28:50] [ INFO ] [BD:55] inserciones creadas
+[2024-05-29 12:30:14] [ INFO ] [PacienteDAOH2:21] inciando las operaciones de guardado
+[2024-05-29 12:30:14] [ INFO ] [DomicilioDAOH2:20] iniciando las operaciones de guardado
+[2024-05-29 12:30:15] [ INFO ] [DomicilioDAOH2:34] domicilio guardado
+[2024-05-29 12:30:15] [ ERROR] [PacienteDAOH2:43] Valor Invalido "6" para el parametro "parameterIndex"
+Invalid value "6" for parameter "parameterIndex" [90008-214]
+[2024-05-29 12:32:03] [ INFO ] [BD:48] Tablas creadas
+[2024-05-29 12:32:03] [ INFO ] [BD:55] inserciones creadas
+[2024-05-29 12:37:20] [ INFO ] [PacienteDAOH2:21] inciando las operaciones de guardado
+[2024-05-29 12:37:20] [ INFO ] [DomicilioDAOH2:20] iniciando las operaciones de guardado
+[2024-05-29 12:37:20] [ INFO ] [DomicilioDAOH2:34] domicilio guardado
+[2024-05-29 12:37:21] [ INFO ] [PacienteDAOH2:39] paciente guardado
+[2024-05-29 12:37:28] [ INFO ] [PacienteDAOH2:77] iniciando las operaciones de busqueda:
+[2024-05-29 12:37:28] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 1
+[2024-05-29 12:37:28] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 2
+[2024-05-29 12:37:28] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 3
+[2024-05-29 12:53:50] [ INFO ] [PacienteDAOH2:50] iniciando la operacion de buscado de un paciente con id : 1
+[2024-05-29 12:53:50] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 1
+[2024-05-29 12:53:50] [ ERROR] [PacienteDAOH2:147] Error de Sintaxis en sentencia SQL "DELETE [*]* FROM PACIENTES WHERE ID=?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM PACIENTES WHERE ID=?"; expected "identifier"; SQL statement:
+DELETE * FROM PACIENTES WHERE ID=? [42001-214]
+[2024-05-29 12:55:05] [ INFO ] [BD:48] Tablas creadas
+[2024-05-29 12:55:05] [ INFO ] [BD:55] inserciones creadas
+[2024-05-29 13:00:39] [ INFO ] [PacienteDAOH2:77] iniciando las operaciones de busqueda:
+[2024-05-29 13:00:39] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 1
+[2024-05-29 13:00:39] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 2
+[2024-05-29 13:00:46] [ INFO ] [PacienteDAOH2:21] inciando las operaciones de guardado
+[2024-05-29 13:00:46] [ INFO ] [DomicilioDAOH2:20] iniciando las operaciones de guardado
+[2024-05-29 13:00:46] [ INFO ] [DomicilioDAOH2:34] domicilio guardado
+[2024-05-29 13:00:46] [ INFO ] [PacienteDAOH2:39] paciente guardado
+[2024-05-29 13:00:55] [ INFO ] [PacienteDAOH2:77] iniciando las operaciones de busqueda:
+[2024-05-29 13:00:55] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 1
+[2024-05-29 13:00:55] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 2
+[2024-05-29 13:00:55] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 3
+[2024-05-29 13:01:04] [ INFO ] [PacienteDAOH2:50] iniciando la operacion de buscado de un paciente con id : 1
+[2024-05-29 13:01:04] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 1
+[2024-05-29 13:01:04] [ INFO ] [PacienteDAOH2:141] Se elimino el user con id: 1
+[2024-05-29 13:01:04] [ INFO ] [DomicilioDAOH2:75] iniciando eliminación domicilio
+[2024-05-29 13:01:04] [ ERROR] [DomicilioDAOH2:90] Error de Sintaxis en sentencia SQL "DELETE [*]* FROM DOMICILIOS WHERE ID=?"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM DOMICILIOS WHERE ID=?"; expected "identifier"; SQL statement:
+DELETE * FROM DOMICILIOS WHERE ID=? [42001-214]
+[2024-05-29 13:01:10] [ INFO ] [PacienteDAOH2:77] iniciando las operaciones de busqueda:
+[2024-05-29 13:01:10] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 2
+[2024-05-29 13:01:10] [ INFO ] [DomicilioDAOH2:45] iniciando la busqueda de un domicilio con id: 3
+[2024-05-29 13:01:19] [ INFO ] [PacienteDAOH2:50] iniciando la operacion de buscado de un paciente con id : 1
+[2024-05-29 13:53:15] [ INFO ] [BD:48] Tablas creadas
+[2024-05-29 13:53:15] [ INFO ] [BD:55] inserciones creadas
+[2024-05-29 14:53:05] [ INFO ] [PacienteDAOH2:79] iniciando las operaciones de busqueda:
+[2024-05-29 14:53:05] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 1
+[2024-05-29 14:53:05] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-05-29 14:53:14] [ INFO ] [PacienteDAOH2:23] inciando las operaciones de guardado
+[2024-05-29 14:53:14] [ INFO ] [DomicilioDAOH2:22] iniciando las operaciones de guardado
+[2024-05-29 14:53:14] [ INFO ] [DomicilioDAOH2:36] domicilio guardado
+[2024-05-29 14:53:14] [ INFO ] [PacienteDAOH2:41] paciente guardado
+[2024-05-29 14:55:50] [ INFO ] [DomicilioDAOH2:101] actualizando domicilio con id: 3
+[2024-05-29 14:55:50] [ INFO ] [DomicilioDAOH2:114] Domicilio con id: 3 actualizado con éxito
+[2024-05-29 14:56:09] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 3
+[2024-05-29 14:56:09] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 3
+[2024-05-30 21:04:24] [ INFO ] [BD:48] Tablas creadas
+[2024-05-30 21:04:25] [ ERROR] [BD:59] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES ('123123','German','Fraire'),('234324432','Fabricio','Acosta') [21002-214]
+[2024-05-30 21:04:43] [ INFO ] [OdolontologoService:25] creado el dao array
+[2024-05-30 21:06:57] [ INFO ] [PacienteDAOH2:79] iniciando las operaciones de busqueda:
+[2024-05-30 21:07:48] [ INFO ] [PacienteDAOH2:23] inciando las operaciones de guardado
+[2024-05-30 21:07:48] [ INFO ] [DomicilioDAOH2:22] iniciando las operaciones de guardado
+[2024-05-30 21:07:48] [ INFO ] [DomicilioDAOH2:36] domicilio guardado
+[2024-05-30 21:07:48] [ INFO ] [PacienteDAOH2:41] paciente guardado
+[2024-05-30 21:07:55] [ INFO ] [PacienteDAOH2:79] iniciando las operaciones de busqueda:
+[2024-05-30 21:07:55] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 1
+[2024-05-30 21:23:01] [ INFO ] [BD:48] Tablas creadas
+[2024-05-30 21:23:01] [ ERROR] [BD:59] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES ('123123','German','Fraire'),('234324432','Fabricio','Acosta') [21002-214]
+[2024-05-30 21:23:08] [ INFO ] [OdolontologoService:25] creado el dao array
+[2024-05-30 21:23:43] [ INFO ] [PacienteDAOH2:23] inciando las operaciones de guardado
+[2024-05-30 21:23:43] [ INFO ] [DomicilioDAOH2:22] iniciando las operaciones de guardado
+[2024-05-30 21:23:43] [ INFO ] [DomicilioDAOH2:36] domicilio guardado
+[2024-05-30 21:23:43] [ INFO ] [PacienteDAOH2:41] paciente guardado
+[2024-05-30 21:28:05] [ INFO ] [BD:48] Tablas creadas
+[2024-05-30 21:28:05] [ ERROR] [BD:59] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES ('123123','German','Fraire'),('234324432','Fabricio','Acosta') [21002-214]
+[2024-05-30 21:28:17] [ INFO ] [OdolontologoService:25] creado el dao array
+[2024-05-30 21:28:17] [ INFO ] [OdolontologoService:25] creado el dao array
+[2024-05-30 21:32:33] [ INFO ] [OdontologoDAOArray:15] guardando el Odontologo en la lista de persistencia
+[2024-05-30 21:32:33] [ INFO ] [OdontologoDAOArray:19] Se ha agregado exitosamente el odontologo a la lista
+[2024-05-30 21:32:56] [ INFO ] [PacienteDAOH2:79] iniciando las operaciones de busqueda:
+[2024-05-30 21:33:16] [ INFO ] [PacienteDAOH2:23] inciando las operaciones de guardado
+[2024-05-30 21:33:16] [ INFO ] [DomicilioDAOH2:22] iniciando las operaciones de guardado
+[2024-05-30 21:33:16] [ INFO ] [DomicilioDAOH2:36] domicilio guardado
+[2024-05-30 21:33:16] [ INFO ] [PacienteDAOH2:41] paciente guardado
+[2024-05-30 21:33:22] [ INFO ] [PacienteDAOH2:79] iniciando las operaciones de busqueda:
+[2024-05-30 21:33:22] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 1
+[2024-05-31 10:53:32] [ INFO ] [BD:48] Tablas creadas
+[2024-05-31 10:53:32] [ ERROR] [BD:59] La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO ODONTOLOGOS VALUES ('123123','German','Fraire'),('234324432','Fabricio','Acosta') [21002-214]
+[2024-05-31 10:53:32] [ INFO ] [OdontoloDAOH2:31] guardando un Odontologo
+[2024-05-31 10:53:32] [ ERROR] [OdontoloDAOH2:52] Valor Invalido "4" para el parametro "parameterIndex"
+Invalid value "4" for parameter "parameterIndex" [90008-214]
+[2024-05-31 10:58:55] [ INFO ] [BD:48] Tablas creadas
+[2024-05-31 10:58:55] [ ERROR] [BD:59] Columna "MATRICULA" no encontrada
+Column "MATRICULA" not found; SQL statement:
+INSERT INTO ODONTOLOGOS (MATRICULA, NOMBRE, APELLIDO) VALUES ('123123','German','Fraire'),('234324432','Fabricio','Acosta') [42122-214]
+[2024-05-31 10:58:55] [ INFO ] [OdontoloDAOH2:31] guardando un Odontologo
+[2024-05-31 10:58:55] [ INFO ] [OdontoloDAOH2:47] Se guardo un odontologo
+[2024-05-31 11:00:25] [ INFO ] [BD:48] Tablas creadas
+[2024-05-31 11:00:25] [ INFO ] [BD:55] inserciones creadas
+[2024-05-31 11:00:25] [ INFO ] [OdontoloDAOH2:31] guardando un Odontologo
+[2024-05-31 11:00:25] [ INFO ] [OdontoloDAOH2:47] Se guardo un odontologo
+[2024-06-03 10:20:09] [ INFO ] [BD:48] Tablas creadas
+[2024-06-03 10:20:09] [ INFO ] [BD:55] inserciones creadas
+[2024-06-03 10:20:09] [ INFO ] [OdontoloDAOH2:31] guardando un Odontologo
+[2024-06-03 10:20:09] [ INFO ] [OdontoloDAOH2:47] Se guardo un odontologo
+[2024-06-03 10:22:14] [ INFO ] [BD:48] Tablas creadas
+[2024-06-03 10:22:14] [ INFO ] [BD:55] inserciones creadas
+[2024-06-03 10:22:29] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-03 10:24:54] [ INFO ] [BD:48] Tablas creadas
+[2024-06-03 10:24:54] [ INFO ] [BD:55] inserciones creadas
+[2024-06-03 10:25:03] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-03 10:25:12] [ INFO ] [OdontoloDAOH2:99] Buscando los odontologos
+[2024-06-03 10:25:12] [ INFO ] [OdontoloDAOH2:113] odontologos traidos con exito
+[2024-06-03 10:25:12] [ INFO ] [OdontoloDAOH2:118]  Matricula: 123123 Nombre: German Apellido: Fraire
+[2024-06-03 10:25:12] [ INFO ] [OdontoloDAOH2:118]  Matricula: 234324432 Nombre: Fabricio Apellido: Acosta
+[2024-06-03 10:25:26] [ INFO ] [PacienteDAOH2:79] iniciando las operaciones de busqueda:
+[2024-06-03 10:25:26] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 1
+[2024-06-03 10:25:26] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 10:35:10] [ INFO ] [BD:48] Tablas creadas
+[2024-06-03 10:35:10] [ INFO ] [BD:55] inserciones creadas
+[2024-06-03 10:35:17] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-03 10:36:40] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 1
+[2024-06-03 10:36:41] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 1
+[2024-06-03 10:37:29] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 1
+[2024-06-03 10:37:29] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 1
+[2024-06-03 10:39:31] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 1
+[2024-06-03 10:39:31] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 1
+[2024-06-03 10:40:41] [ INFO ] [BD:48] Tablas creadas
+[2024-06-03 10:40:41] [ INFO ] [BD:55] inserciones creadas
+[2024-06-03 10:40:53] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-03 10:43:18] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 1
+[2024-06-03 10:43:18] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 1
+[2024-06-03 10:43:18] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 1
+[2024-06-03 10:43:18] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 1
+[2024-06-03 10:43:18] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 1
+[2024-06-03 10:43:18] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 1
+[2024-06-03 11:02:48] [ INFO ] [BD:48] Tablas creadas
+[2024-06-03 11:02:48] [ INFO ] [BD:55] inserciones creadas
+[2024-06-03 11:02:57] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-03 11:05:32] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 1
+[2024-06-03 11:05:32] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 1
+[2024-06-03 11:05:32] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 1
+[2024-06-03 11:05:32] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 1
+[2024-06-03 11:05:32] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 1
+[2024-06-03 11:05:32] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 1
+[2024-06-03 11:05:42] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 11:05:42] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 11:05:42] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 1
+[2024-06-03 11:05:42] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 1
+[2024-06-03 11:05:42] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 11:05:42] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 11:05:53] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 11:05:53] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 11:05:53] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 2
+[2024-06-03 11:05:53] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 2
+[2024-06-03 11:05:53] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 11:05:53] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 11:29:05] [ INFO ] [BD:48] Tablas creadas
+[2024-06-03 11:29:05] [ INFO ] [BD:55] inserciones creadas
+[2024-06-03 11:29:16] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-03 11:31:23] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 11:31:23] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 11:31:23] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 2
+[2024-06-03 11:31:23] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 2
+[2024-06-03 11:31:23] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 11:31:23] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 11:31:31] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 1
+[2024-06-03 11:31:31] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 1
+[2024-06-03 11:31:31] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 2
+[2024-06-03 11:31:31] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 2
+[2024-06-03 11:31:31] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 1
+[2024-06-03 11:31:31] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 1
+[2024-06-03 11:31:48] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 1
+[2024-06-03 11:31:48] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 1
+[2024-06-03 11:31:48] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 1
+[2024-06-03 11:31:48] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 1
+[2024-06-03 11:31:48] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 1
+[2024-06-03 11:31:48] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 1
+[2024-06-03 11:31:58] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 11:31:58] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 11:31:58] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 1
+[2024-06-03 11:31:58] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 1
+[2024-06-03 11:31:58] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 11:31:58] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 12:02:37] [ ERROR] [OdontoloDAOH2:84] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS WHERE ID=? [42104-214]
+[2024-06-03 12:02:37] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 1
+[2024-06-03 12:02:37] [ ERROR] [PacienteDAOH2:70] Table "PACIENTES" not found (this database is empty); SQL statement:
+SELECT * FROM PACIENTES WHERE ID=? [42104-214]
+[2024-06-03 12:02:37] [ ERROR] [OdontoloDAOH2:84] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS WHERE ID=? [42104-214]
+[2024-06-03 12:02:37] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 12:02:37] [ ERROR] [PacienteDAOH2:70] Table "PACIENTES" not found (this database is empty); SQL statement:
+SELECT * FROM PACIENTES WHERE ID=? [42104-214]
+[2024-06-03 12:02:37] [ ERROR] [OdontoloDAOH2:84] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS WHERE ID=? [42104-214]
+[2024-06-03 12:02:37] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 1
+[2024-06-03 12:02:37] [ ERROR] [PacienteDAOH2:70] Table "PACIENTES" not found (this database is empty); SQL statement:
+SELECT * FROM PACIENTES WHERE ID=? [42104-214]
+[2024-06-03 12:02:37] [ INFO ] [TurnoTest:33] [Turno{id=1, odontologo=null, paciente=null, fechaYHora=null}, Turno{id=2, odontologo=null, paciente=null, fechaYHora=null}, Turno{id=3, odontologo=null, paciente=null, fechaYHora=null}]
+[2024-06-03 12:04:07] [ INFO ] [BD:48] Tablas creadas
+[2024-06-03 12:04:07] [ INFO ] [BD:55] inserciones creadas
+[2024-06-03 12:04:07] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 1
+[2024-06-03 12:04:07] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 1
+[2024-06-03 12:04:07] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 1
+[2024-06-03 12:04:07] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 1
+[2024-06-03 12:04:07] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 1
+[2024-06-03 12:04:07] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 1
+[2024-06-03 12:04:07] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 12:04:07] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 12:04:07] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 1
+[2024-06-03 12:04:07] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 1
+[2024-06-03 12:04:07] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 1
+[2024-06-03 12:04:07] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 1
+[2024-06-03 12:04:07] [ INFO ] [TurnoTest:34] [Turno{id=1, odontologo= Matricula: 123123 Nombre: German Apellido: Fraire, paciente=Paciente{id=1, nombre='Jorgito', apellido='Pereyra', cedula='111111', fechaIngreso=2024-05-16, domicilio=Domicilio{id=1, calle='Siempre Viva', numero=742, localidad='Springfield', provincia='USA'}}, fechaYHora=null}, Turno{id=2, odontologo= Matricula: 123123 Nombre: German Apellido: Fraire, paciente=Paciente{id=2, nombre='German', apellido='Fraire', cedula='22222', fechaIngreso=2024-05-10, domicilio=Domicilio{id=2, calle='Av. Uruguay', numero=345, localidad='Punta del Este', provincia='Uruguay'}}, fechaYHora=null}, Turno{id=3, odontologo= Matricula: 123123 Nombre: German Apellido: Fraire, paciente=Paciente{id=1, nombre='Jorgito', apellido='Pereyra', cedula='111111', fechaIngreso=2024-05-16, domicilio=Domicilio{id=1, calle='Siempre Viva', numero=742, localidad='Springfield', provincia='USA'}}, fechaYHora=null}]
+[2024-06-03 12:05:39] [ INFO ] [BD:48] Tablas creadas
+[2024-06-03 12:05:39] [ INFO ] [BD:55] inserciones creadas
+[2024-06-03 12:05:39] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 1
+[2024-06-03 12:05:39] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 1
+[2024-06-03 12:05:39] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 1
+[2024-06-03 12:05:39] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 1
+[2024-06-03 12:05:39] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 1
+[2024-06-03 12:05:39] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 1
+[2024-06-03 12:05:39] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 12:05:39] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 12:05:39] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 1
+[2024-06-03 12:05:39] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 1
+[2024-06-03 12:05:39] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 1
+[2024-06-03 12:05:39] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 1
+[2024-06-03 12:05:39] [ INFO ] [TurnoTest:34] [Turno{id=1, odontologo= Matricula: 123123 Nombre: German Apellido: Fraire, paciente=Paciente{id=1, nombre='Jorgito', apellido='Pereyra', cedula='111111', fechaIngreso=2024-05-16, domicilio=Domicilio{id=1, calle='Siempre Viva', numero=742, localidad='Springfield', provincia='USA'}}, fechaYHora=null}, Turno{id=2, odontologo= Matricula: 123123 Nombre: German Apellido: Fraire, paciente=Paciente{id=2, nombre='German', apellido='Fraire', cedula='22222', fechaIngreso=2024-05-10, domicilio=Domicilio{id=2, calle='Av. Uruguay', numero=345, localidad='Punta del Este', provincia='Uruguay'}}, fechaYHora=null}, Turno{id=3, odontologo= Matricula: 123123 Nombre: German Apellido: Fraire, paciente=Paciente{id=1, nombre='Jorgito', apellido='Pereyra', cedula='111111', fechaIngreso=2024-05-16, domicilio=Domicilio{id=1, calle='Siempre Viva', numero=742, localidad='Springfield', provincia='USA'}}, fechaYHora=null}]
+[2024-06-03 12:05:39] [ INFO ] [TurnoTest:38] [Turno{id=1, odontologo= Matricula: 123123 Nombre: German Apellido: Fraire, paciente=Paciente{id=1, nombre='Jorgito', apellido='Pereyra', cedula='111111', fechaIngreso=2024-05-16, domicilio=Domicilio{id=1, calle='Siempre Viva', numero=742, localidad='Springfield', provincia='USA'}}, fechaYHora=null}, Turno{id=3, odontologo= Matricula: 123123 Nombre: German Apellido: Fraire, paciente=Paciente{id=1, nombre='Jorgito', apellido='Pereyra', cedula='111111', fechaIngreso=2024-05-16, domicilio=Domicilio{id=1, calle='Siempre Viva', numero=742, localidad='Springfield', provincia='USA'}}, fechaYHora=null}]
+[2024-06-03 12:08:30] [ INFO ] [BD:48] Tablas creadas
+[2024-06-03 12:08:30] [ INFO ] [BD:55] inserciones creadas
+[2024-06-03 12:08:41] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-03 12:14:16] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 12:14:16] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 12:14:16] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 1
+[2024-06-03 12:14:16] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 1
+[2024-06-03 12:14:16] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 12:14:16] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 12:14:20] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 12:14:20] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 12:14:20] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 1
+[2024-06-03 12:14:20] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 1
+[2024-06-03 12:14:20] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 12:14:20] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 12:14:24] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 12:14:24] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 12:14:24] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 1
+[2024-06-03 12:14:24] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 1
+[2024-06-03 12:14:24] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 12:14:24] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 12:20:48] [ INFO ] [BD:48] Tablas creadas
+[2024-06-03 12:20:48] [ INFO ] [BD:55] inserciones creadas
+[2024-06-03 12:20:56] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-03 12:23:30] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 12:23:30] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 12:23:30] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 1
+[2024-06-03 12:23:30] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 1
+[2024-06-03 12:23:30] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 12:23:30] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 12:26:36] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 12:26:36] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 12:26:36] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 1
+[2024-06-03 12:26:36] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 1
+[2024-06-03 12:26:36] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 12:26:36] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 12:26:42] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 12:26:42] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 12:26:42] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 1
+[2024-06-03 12:26:42] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 1
+[2024-06-03 12:26:42] [ INFO ] [PacienteDAOH2:52] iniciando la operacion de buscado de un paciente con id : 2
+[2024-06-03 12:26:42] [ INFO ] [DomicilioDAOH2:47] iniciando la busqueda de un domicilio con id: 2
+[2024-06-03 12:28:20] [ INFO ] [TurnoController:58] buscando turno con id: 1
+[2024-06-03 12:28:20] [ INFO ] [TurnoController:60] turno encontrado
+[2024-06-03 12:29:03] [ INFO ] [TurnoController:58] buscando turno con id: 3
+[2024-06-03 12:29:03] [ INFO ] [TurnoController:60] turno encontrado
+[2024-06-03 15:48:59] [ INFO ] [BD:48] Tablas creadas
+[2024-06-03 15:48:59] [ INFO ] [BD:55] inserciones creadas
+[2024-06-03 15:49:09] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-04 15:56:31] [ INFO ] [BD:48] Tablas creadas
+[2024-06-04 15:56:31] [ INFO ] [BD:55] inserciones creadas
+[2024-06-04 15:56:40] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-04 16:03:47] [ INFO ] [BD:48] Tablas creadas
+[2024-06-04 16:03:47] [ INFO ] [BD:55] inserciones creadas
+[2024-06-04 16:03:58] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-04 16:07:10] [ INFO ] [BD:48] Tablas creadas
+[2024-06-04 16:07:10] [ INFO ] [BD:55] inserciones creadas
+[2024-06-04 16:07:19] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-04 16:09:14] [ INFO ] [BD:48] Tablas creadas
+[2024-06-04 16:09:14] [ INFO ] [BD:55] inserciones creadas
+[2024-06-04 16:09:23] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-04 16:10:23] [ INFO ] [BD:48] Tablas creadas
+[2024-06-04 16:10:23] [ INFO ] [BD:55] inserciones creadas
+[2024-06-04 16:10:31] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-04 16:24:38] [ INFO ] [BD:48] Tablas creadas
+[2024-06-04 16:24:38] [ INFO ] [BD:55] inserciones creadas
+[2024-06-04 16:24:49] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-04 16:25:49] [ INFO ] [BD:48] Tablas creadas
+[2024-06-04 16:25:49] [ INFO ] [BD:55] inserciones creadas
+[2024-06-04 16:25:57] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-04 16:27:45] [ INFO ] [BD:48] Tablas creadas
+[2024-06-04 16:27:45] [ INFO ] [BD:55] inserciones creadas
+[2024-06-04 16:27:55] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-04 16:31:35] [ INFO ] [BD:48] Tablas creadas
+[2024-06-04 16:31:35] [ INFO ] [BD:55] inserciones creadas
+[2024-06-04 16:31:43] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-04 16:35:21] [ INFO ] [BD:48] Tablas creadas
+[2024-06-04 16:35:21] [ INFO ] [BD:55] inserciones creadas
+[2024-06-04 16:35:30] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-04 16:39:41] [ INFO ] [BD:48] Tablas creadas
+[2024-06-04 16:39:41] [ INFO ] [BD:55] inserciones creadas
+[2024-06-04 16:39:50] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-04 16:44:03] [ INFO ] [OdontoloDAOH2:99] Buscando los odontologos
+[2024-06-04 16:44:03] [ INFO ] [OdontoloDAOH2:113] odontologos traidos con exito
+[2024-06-04 16:44:03] [ INFO ] [OdontoloDAOH2:118]  Matricula: 123123 Nombre: German Apellido: Fraire
+[2024-06-04 16:44:03] [ INFO ] [OdontoloDAOH2:118]  Matricula: 234324432 Nombre: Fabricio Apellido: Acosta
+[2024-06-04 16:44:17] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 1
+[2024-06-04 16:44:17] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 1
+[2024-06-04 16:44:17] [ INFO ] [OdontoloDAOH2:70] buscando odontologo con id: 1
+[2024-06-04 16:44:17] [ INFO ] [OdontoloDAOH2:81] Se trajo el odontologo con id: 1
+[2024-06-04 16:46:08] [ INFO ] [BD:48] Tablas creadas
+[2024-06-04 16:46:08] [ INFO ] [BD:55] inserciones creadas
+[2024-06-04 16:46:20] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-04 16:51:32] [ INFO ] [BD:48] Tablas creadas
+[2024-06-04 16:51:32] [ INFO ] [BD:55] inserciones creadas
+[2024-06-04 16:51:45] [ INFO ] [OdontologoService:25] creado el dao array
+[2024-06-04 16:52:25] [ INFO ] [OdontoloDAOH2:99] Buscando los odontologos
+[2024-06-04 16:52:25] [ INFO ] [OdontoloDAOH2:113] odontologos traidos con exito
+[2024-06-04 16:52:25] [ INFO ] [OdontoloDAOH2:118]  Matricula: 123123 Nombre: German Apellido: Fraire
+[2024-06-04 16:52:25] [ INFO ] [OdontoloDAOH2:118]  Matricula: 234324432 Nombre: Fabricio Apellido: Acosta

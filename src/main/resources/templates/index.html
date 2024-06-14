@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <!--<p>Hola Paciente: <span th:text="${nombre}"></span> <span th:text="${apellido}"></span></p>-->
+</head>
+<body>
+
+
+<p>pacientes:</p>
+<ul th:each="pacientes:${pacientes}">
+
+    <li > <span th:text="${pacientes.nombre}"></span> <span th:text="${pacientes.apellido}"></span> </li>
+</ul>
+
+
+</body>
+
+</html>
