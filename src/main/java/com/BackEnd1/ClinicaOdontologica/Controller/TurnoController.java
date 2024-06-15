@@ -1,6 +1,7 @@
 package com.BackEnd1.ClinicaOdontologica.Controller;
 
 import com.BackEnd1.ClinicaOdontologica.entity.Turno;
+import com.BackEnd1.ClinicaOdontologica.exception.BadRequestException;
 import com.BackEnd1.ClinicaOdontologica.service.OdontologoService;
 import com.BackEnd1.ClinicaOdontologica.service.PacienteService;
 import com.BackEnd1.ClinicaOdontologica.service.TurnoService;
@@ -27,7 +28,7 @@ public class TurnoController {
     public static final Logger logger = Logger.getLogger(TurnoController.class);
 
     @PostMapping
-    public ResponseEntity<Turno> guardarTurno (@RequestBody Turno turno){
+    public ResponseEntity<Turno> guardarTurno (@RequestBody Turno turno) throws BadRequestException {
         if (pacienteService.buscarPorID(turno.getPaciente().getId()).isPresent()
                 && odolontologoService.buscarPorId(turno.getOdontologo().getId()).isPresent()){
 
@@ -35,7 +36,7 @@ public class TurnoController {
             return ResponseEntity.ok(turnoService.buscarPorId(turno.getId()).get());
 
         } else {
-            return ResponseEntity.badRequest().build();
+            throw new BadRequestException("Paciente u odontologos no existen");
         }
     }
 

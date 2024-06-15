@@ -13,8 +13,12 @@ window.addEventListener('load', function () {
 
             var select = document.getElementById("get_odontologo_select");
             let value = odontologo.id;
+            let option = document.createElement("option");
+            option.setAttribute("value",value);
 
-            select.innerHTML = '<option value= ' + value + '  >' + odontologo.nombre + ' ' +odontologo.apellido + '</option>'
+            option.innerHTML =  odontologo.nombre + ' ' + odontologo.apellido;
+
+            select.appendChild(option);
 
         };
 

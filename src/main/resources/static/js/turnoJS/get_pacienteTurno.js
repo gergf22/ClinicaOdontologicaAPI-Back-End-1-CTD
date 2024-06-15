@@ -13,9 +13,12 @@ window.addEventListener('load', function () {
 
             var select = document.getElementById("get_paciente_select");
             let value = paciente.id;
+            let option = document.createElement("option");
+            option.setAttribute("value",value);
 
-            select.innerHTML = '<option value= ' + value + '  >' + paciente.nombre + ' ' +paciente.apellido + '</option>'
+            option.innerHTML =  paciente.nombre + ' ' + paciente.apellido;
 
+            select.appendChild(option);
         };
 
     })

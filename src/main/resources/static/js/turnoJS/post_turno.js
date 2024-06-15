@@ -3,6 +3,7 @@ window.addEventListener('load', function () {
     console.log("funciona script")
     const formulario = document.querySelector('#add_new_turno');
 
+
     formulario.addEventListener('submit', function (event) {
         const formData = {
             odontologo: {
