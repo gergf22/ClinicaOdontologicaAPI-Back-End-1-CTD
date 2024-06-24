@@ -1,6 +1,8 @@
 package com.BackEnd1.ClinicaOdontologica.Controller;
 
 import com.BackEnd1.ClinicaOdontologica.entity.Odontologo;
+import com.BackEnd1.ClinicaOdontologica.exception.BadRequestException;
+import com.BackEnd1.ClinicaOdontologica.exception.NotFoundException;
 import com.BackEnd1.ClinicaOdontologica.service.OdontologoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -22,23 +24,23 @@ public class OdontologoController {
     }
 
     @GetMapping(path = "/{id}")
-    public ResponseEntity<Optional<Odontologo>> buscarPorId (@PathVariable Long id){
+    public ResponseEntity<Optional<Odontologo>> buscarPorId (@PathVariable Long id) throws NotFoundException {
 
         if (odontologoService.buscarPorId(id).isPresent()){
             return ResponseEntity.ok(odontologoService.buscarPorId(id));
         }else {
-            return ResponseEntity.notFound().build();
+            throw new NotFoundException("Odongotolo no encontrado");
         }
 
     }
 
     @DeleteMapping(path = "/{id}")
-    public ResponseEntity<String> eliminarOdontogolo (@PathVariable Long id){
+    public ResponseEntity<String> eliminarOdontogolo (@PathVariable Long id) throws BadRequestException {
         if (odontologoService.buscarPorId(id).isPresent()){
             odontologoService.eliminarOdontologo(id);
             return ResponseEntity.ok("Se ha eliminado con exito el Odontologo");
         }else {
-            return ResponseEntity.notFound().build();
+            throw new BadRequestException("Odongotolo a eliminar no existe");
         }
     }
 
@@ -48,22 +50,22 @@ public class OdontologoController {
     }
 
     @GetMapping(path = "/matricula")
-    public ResponseEntity<Optional<Odontologo>> buscarPorMatricula(@RequestBody String matricula){
+    public ResponseEntity<Optional<Odontologo>> buscarPorMatricula(@RequestBody String matricula)  throws NotFoundException{
         if (odontologoService.buscarPorMatricula(matricula).isPresent()){
             return ResponseEntity.ok(odontologoService.buscarPorMatricula(matricula));
         } else {
-            return ResponseEntity.notFound().build();
+            throw new NotFoundException("Odongotolo no encontrado");
         }
     }
 
 
     @PutMapping
-    public ResponseEntity<String> actualizarOdontologo (@RequestBody Odontologo odontologo){
+    public ResponseEntity<String> actualizarOdontologo (@RequestBody Odontologo odontologo)  throws NotFoundException{
         if (odontologoService.buscarPorId(odontologo.getId()).isPresent()){
             odontologoService.actualizarOdontologo(odontologo);
             return ResponseEntity.ok("Odontologo actualizado con éxito");
         }else {
-            return ResponseEntity.badRequest().build();
+            throw new NotFoundException("Odongotolo a actualizar no encontrado");
         }
 
     }

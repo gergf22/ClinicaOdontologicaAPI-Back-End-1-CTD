@@ -2,6 +2,7 @@ package com.BackEnd1.ClinicaOdontologica.Controller;
 
 import com.BackEnd1.ClinicaOdontologica.entity.Turno;
 import com.BackEnd1.ClinicaOdontologica.exception.BadRequestException;
+import com.BackEnd1.ClinicaOdontologica.exception.NotFoundException;
 import com.BackEnd1.ClinicaOdontologica.service.OdontologoService;
 import com.BackEnd1.ClinicaOdontologica.service.PacienteService;
 import com.BackEnd1.ClinicaOdontologica.service.TurnoService;
@@ -48,33 +49,33 @@ public class TurnoController {
     }
 
     @GetMapping(path = "/{id}")
-    public ResponseEntity<Optional<Turno>> buscarPorId(@PathVariable Long id){
+    public ResponseEntity<Optional<Turno>> buscarPorId(@PathVariable Long id) throws NotFoundException {
         if (turnoService.buscarPorId(id).isPresent()){
             return ResponseEntity.ok(turnoService.buscarPorId(id));
         }else {
-            return ResponseEntity.notFound().build();
+            throw new NotFoundException("Turno no encontrado");
         }
     }
 
     @DeleteMapping(path = "/{id}")
-    public ResponseEntity<String> eliminarTurno (@PathVariable Long id){
+    public ResponseEntity<String> eliminarTurno (@PathVariable Long id) throws BadRequestException{
         logger.info("buscando turno con id: " + id);
         if (turnoService.buscarPorId(id).isPresent()){
             logger.info("turno encontrado");
             turnoService.eliminarTurno(id);
             return ResponseEntity.ok("Turno eliminaod con exito");
         } else {
-            return ResponseEntity.notFound().build();
+            throw new BadRequestException("Turno a eliminar no existe");
         }
     }
 
     @PutMapping
-    public ResponseEntity<String> actualizarTurno (@RequestBody Turno turno){
+    public ResponseEntity<String> actualizarTurno (@RequestBody Turno turno) throws NotFoundException{
         if(turnoService.buscarPorId(turno.getId()).isPresent()){
             turnoService.actualizarTurno(turno);
             return ResponseEntity.ok("Turno actualizado");
         }else {
-            return ResponseEntity.notFound().build();
+            throw new NotFoundException("Turno no encontrado");
         }
 
     }
@@ -89,17 +90,3 @@ public class TurnoController {
 
 }
 
-
-/*         Optional<Paciente> pacienteBuscado = pacienteService.buscarPorID(turno.getPaciente().getId());
-        Optional<Odontologo> odontologoBuscado = odolontologoService.buscarPorId(turno.getOdontologo().getId());
-        if (pacienteBuscado.isPresent()
-                && odontologoBuscado.isPresent()){
-
-            turno.setPaciente(pacienteBuscado.get());
-            turno.setOdontologo(odontologoBuscado.get());
-            return ResponseEntity.ok(turnoService.guardarTurno(turno));
-
-        } else {
-            return ResponseEntity.badRequest().build();
-        }
-    }*/

@@ -28,6 +28,11 @@ public class Turno {
     @Column
     private LocalDate fechaYHora;
 
+    public Turno(Odontologo odontologo, Paciente paciente, LocalDate fechaYHora) {
+        this.odontologo = odontologo;
+        this.paciente = paciente;
+        this.fechaYHora = fechaYHora;
+    }
 
     @Override
     public String toString() {

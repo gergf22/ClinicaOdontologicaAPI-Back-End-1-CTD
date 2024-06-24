@@ -31,14 +31,7 @@ public class ClinicaOdontologicaApplication {
 		SpringApplication.run(ClinicaOdontologicaApplication.class, args);
 
 
-		/*LocalDate date = LocalDate.now();
 
-		Domicilio domicilio = new Domicilio("ombú",123,"mvd","Uruguay");
-		Paciente paciente1 = new Paciente("german","Fraire","123123",date,domicilio,"ger@ger.com");
-		Paciente paciente2 = new Paciente("pupi","bunnyta","1323123",date,domicilio,"pupi@guonejo.com");
-		Odontologo odontologo1 = new Odontologo("123","pitty","martinez");
-		Odontologo odontologo2 = new Odontologo("234","Julian","alvarez");
-		Odontologo odontologo3 = new Odontologo("567","enzo","perez");*/
 
 	}
 
