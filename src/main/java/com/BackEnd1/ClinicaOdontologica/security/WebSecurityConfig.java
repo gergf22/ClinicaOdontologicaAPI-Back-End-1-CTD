@@ -40,14 +40,13 @@ public class WebSecurityConfig {
 
         http
                 .csrf(AbstractHttpConfigurer::disable)
-                .authorizeHttpRequests((authz)->authz
-                        .requestMatchers("/pacienteAlta.html", "/pacienteLista.html","/odontologoAlta.html","/odontologoLista.html")
+                .authorizeHttpRequests((authz)-> authz
+                        .requestMatchers("/odontologo/odontologoAlta.html","/odontologo/odontologoLista.html", "/paciente/pacienteLista.html","paciente/pacienteAlta.html")
                         .hasRole("ADMIN")
                         .anyRequest().authenticated()
                 )
                 .formLogin(withDefaults())
                 .logout(withDefaults());
-
         return http.build();
 
     }

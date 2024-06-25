@@ -44,6 +44,10 @@
                 </li>
 
             </ul>
+            <div class="d-flex" >
+                <button class="btn btn-outline-secondary" type="submit"><a  href="/logout">Cerrar sesión</a></button>
+            </div>
+
 
         </div>
     </div>
@@ -98,6 +102,19 @@
 											background-color:#e6fffa; padding:10px; border-radius:3px"
              id="div_turno_updating">
             <form id="update_turno_form">
+
+                <div class="form-group">
+                    <label >Id:</label>
+                    <input type="text" class="form-control" id="turno_id" readonly>
+                </div>
+
+                <div class="form-group">
+                    <label >Paciente:</label>
+                    <input type="text" class="form-control" id="paciente_nombre" readonly>
+                </div>
+                <div class="form-group" style="display: none">
+                    <input type="text" class="form-control" id="paciente_id" readonly>
+                </div>
                 <div class="form-group">
                     <label class="control-label" for="get_odontologo_select">Odontologos:</label>
                     <select class="form-select form-select-sm" aria-label="Small select example" id="get_odontologo_select" name="get_odontologo_select">

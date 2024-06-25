@@ -14,7 +14,6 @@ import java.util.Collections;
 
 @Entity
 @Table(name = "usuarios")
-@AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
@@ -48,7 +47,7 @@ public class Usuario implements UserDetails {
         return Collections.singletonList(simpleGrantedAuthority);
     }
 
-    @Override
+
     public String getPassword() {
         return password;
     }
