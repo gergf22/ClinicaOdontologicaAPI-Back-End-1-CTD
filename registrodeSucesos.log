@@ -384,3 +384,15 @@ SELECT * FROM PACIENTES WHERE ID=? [42104-214]
 [2024-06-04 16:52:25] [ INFO ] [OdontoloDAOH2:118]  Matricula: 234324432 Nombre: Fabricio Apellido: Acosta
 [2024-06-25 12:04:20] [ INFO ] [TurnoController:62] buscando turno con id: 1
 [2024-06-25 12:04:20] [ INFO ] [TurnoController:64] turno encontrado
+[2024-06-25 13:53:29] [ INFO ] [TurnoController:62] buscando turno con id: 1
+[2024-06-25 13:53:29] [ INFO ] [TurnoController:64] turno encontrado
+[2024-06-25 15:52:14] [ INFO ] [TurnoController:62] buscando turno con id: 2
+[2024-06-25 15:52:14] [ INFO ] [TurnoController:64] turno encontrado
+[2024-06-25 20:06:46] [ INFO ] [TurnoController:62] buscando turno con id: 2
+[2024-06-25 20:06:46] [ INFO ] [TurnoController:64] turno encontrado
+[2024-06-25 23:25:50] [ INFO ] [TurnoController:64] buscando turno con id: 1
+[2024-06-25 23:25:50] [ INFO ] [TurnoController:66] turno encontrado
+[2024-06-26 00:01:52] [ INFO ] [TurnoController:64] buscando turno con id: 1
+[2024-06-26 00:01:52] [ INFO ] [TurnoController:66] turno encontrado
+[2024-06-26 01:02:07] [ INFO ] [TurnoController:84] buscando turno con id: 2
+[2024-06-26 01:02:07] [ INFO ] [TurnoController:86] turno encontrado

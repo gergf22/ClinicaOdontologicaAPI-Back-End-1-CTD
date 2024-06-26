@@ -1,9 +1,13 @@
 package com.BackEnd1.ClinicaOdontologica.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "odontologos")
@@ -22,6 +26,9 @@ public class Odontologo {
     @Column
     private String apellido;
 
+    @OneToMany(mappedBy = "odontologo", cascade = CascadeType.ALL)
+    @JsonIgnore
+    private Set<Turno> turnos = new HashSet<>();
 
     public Odontologo(String matricula, String nombre, String apellido) {
         this.matricula = matricula;
